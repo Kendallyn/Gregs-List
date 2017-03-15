@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+h3 {
+    text-align: left;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.links a {
+    color: purple;
+    font-family: sans-serif;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+}
+
+.links {
+    position: relative;
+    left: 90%;
+    bottom: 35px;
+    text-decoration: none;
+}
+
+li a,
+.nav-pages a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+input {
+    margin-top: 250px;
+}
