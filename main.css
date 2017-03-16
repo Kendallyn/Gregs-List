@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     position: fixed;
-    background-color: lightgray;
-    border: 1px solid black;
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
     width: 100%;
     top: 0;
     right: 0;
@@ -29,6 +33,7 @@ h3 {
     position: relative;
     margin: 5px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .links {
@@ -41,6 +46,10 @@ h3 {
 li a,
 .nav-pages a {
     text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 li a:hover {
@@ -60,9 +69,10 @@ input {
     width: 400px;
     height: 30px;
     border-radius: 3px;
-    border: 1px solid gray;
-    border-radius: 5%;
+    border: 1px solid #DDDDDD;
     vertical-align: top;
+    line-height: 30px;
+    font-size: 17px;
 }
 
 .magnifying-glass {
@@ -72,19 +82,28 @@ input {
 
 .nav-pages {
     border: 1px solid black;
+    border-radius: 3px;
     width: auto;
     display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
 }
 
 .nav-pages a {
     display: inline-block;
 }
 
-.nav-pages span {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+.page-number {
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    font-size: 16px;
 }
 
 .job {
     list-style: none;
+    padding: 0;
+}
+
+.date .location {
+    color: color: #999;
 }
