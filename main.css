@@ -12,6 +12,13 @@ h3 {
     text-align: left;
     font-family: sans-serif;
     display: inline-block;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.logo {
+    width: auto;
+    display: inline-block;
 }
 
 .links a {
@@ -21,13 +28,14 @@ h3 {
     display: inline-block;
     position: relative;
     margin: 5px;
+    text-decoration: none;
 }
 
 .links {
-    position: relative;
-    left: 90%;
     bottom: 35px;
     text-decoration: none;
+    float: right;
+    margin-top: 15px;
 }
 
 li a,
@@ -39,6 +47,44 @@ li a:hover {
     text-decoration: underline;
 }
 
+form {
+    margin-top: 80px;
+}
+
+label {
+    display: block;
+    margin-bottom: 50px;
+}
+
 input {
-    margin-top: 250px;
+    width: 400px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    border-radius: 5%;
+    vertical-align: top;
+}
+
+.magnifying-glass {
+    height: auto;
+    width: 35px;
+}
+
+.nav-pages {
+    border: 1px solid black;
+    width: auto;
+    display: inline-block;
+}
+
+.nav-pages a {
+    display: inline-block;
+}
+
+.nav-pages span {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.job {
+    list-style: none;
 }
